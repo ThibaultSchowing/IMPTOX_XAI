@@ -1,11 +1,12 @@
 site_name: IMPTOX XAI with Material for MkDocs
+source: docs
 theme:
   name: material
   logo: assets/img/imptox-rgb.jpg
   favicon: assets/favicon/imptox-rgb_white.ico
   features:
     - navigation.footer
-    
+  
   font:
     text: Merriweather Sans
     code: Red Hat Mono
