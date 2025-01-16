@@ -1,15 +1,32 @@
-# Welcome to MkDocs
+# IMPTOX Explainable Data Analysis
+
+Explainable Artificial Intelligence, known as XAI, allows to provide a human understandable explanation to models predictions. These pages aim to provide a quick and easy procedure to allow IMPTOX project members who produced numeric tabular data to create and explain models for their data. This implies that the data are fully numerical (or ordinal categories) and that there is an output to predict (classification or regression). As example, we will use two well known datasets and apply different methods. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Made With MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+### Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
+### Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
@@ -18,4 +35,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 
 
-I like to drink coffee while reading the [documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)!
+[Documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)!
