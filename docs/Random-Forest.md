@@ -1,3 +1,16 @@
+# Random Forest
+
+Random Forest is a rule based method by nature which can be interpreted by itself bu also with Fidex
+
+See Notebook for example
+
+Here are the main data example and result. 
+
+TODO
+
+
+
+
 ```py title="add_numbers.py" linenums="1"
 # Function to add two numbers
 def add_two_numbers(num1, num2):
