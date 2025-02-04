@@ -1,21 +1,25 @@
-# IMPTOX - WP1 - Data Analysis
+# IMPTOX - Data Analysis
 
-Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The IMPTOX project brings together scientists from diverse fields—chemistry, biology, and medicine—to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects like allergies, the project generates a wealth of complex and valuable data.
+These pages aim to guide IMPTOX members in creating and interpreting models for tabular numerical data. The shown sample workflows assume fully numeric datasets, including ordinal categories or one-hot encodings, and focuses on predicting a target variable (classification or regression). To illustrate these methods, we will apply XAI techniques to well-known example datasets such as the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) and the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
 
-But data is only the beginning. How do we extract meaningful insights or create prediction models? This is where machine learning (ML) and Explainable Artificial Intelligence (XAI) come into play. XAI helps transform data into knowledge by offering transparent and interpretable models that reveal the why behind predictions.
+!!! info "The project"
 
+    Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The IMPTOX project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, ==the project generates a wealth of complex and valuable data==.
 
-
-Not sure how machine learning could help with your research? Here are some thought-provoking possibilities:  
-
-- **Environmental Insights:** Could patterns in environmental data reveal which microplastic types are present or how they are distributed across ecosystems?  
-- **Pathogen Risks:** Can we uncover hidden relationships between microplastic surface properties and their role in fostering pathogen growth?  
-- **Health Predictions:** Is it possible to predict health outcomes, such as allergic responses, based on exposure to microplastics combined with patient characteristics?  
-
-Machine learning allows you to go beyond observations, transforming data into predictions and new hypotheses. With XAI methods, these predictions become understandable and scientifically valuable, allowing to eliminate unused variables and focus on important ones, opening doors to optimized research paths.  
+    Data is only the beginning. How do we extract meaningful insights or create prediction models from high dimentional and complex data? This is where machine learning (ML) and Explainable Artificial Intelligence (XAI) come into play. XAI helps transform data into knowledge by offering transparent and interpretable models that reveal the why behind predictions.
 
 
-These pages aim to guide IMPTOX members in creating and interpreting models for tabular numerical data. The workflow assumes fully numeric datasets, including ordinal categories or one-hot encodings, and focuses on predicting a target variable (classification or regression). To illustrate these methods, we will apply XAI techniques to two well-known example datasets, the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) and the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
+
+??? note "How machine learning could help with your research?"
+
+    - **Environmental Insights:** Could patterns in environmental data reveal which microplastic types are present or how they are distributed across ecosystems?  
+    - **Pathogen Risks:** Can we uncover hidden relationships between microplastic surface properties and their role in fostering pathogen growth?  
+    - **Health Predictions:** Is it possible to predict health outcomes, such as allergic responses, based on exposure to microplastics combined with patient characteristics?  
+
+    Machine learning allows you to go beyond observations, transforming data into predictions and new hypotheses. With XAI methods, these predictions become understandable and scientifically valuable, allowing to eliminate unused variables and focus on important ones, opening doors to optimized research paths.  
+
+
+
 
 
 
@@ -34,9 +38,11 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 === "SHAP"
 
-    By slightly modifying a model imputs many times and study the outcome of the model, SHAP is a post-hoc method capable to explain how each variable influences the results for each observation data. 
+    By slightly modifying a model imputs many times and studying the outcome of the model, SHAP is a post-hoc method capable to explain how each variable influences the results for each observation data. 
 
     Include figures ?
+
+    ![Average influence of variables](../notebooks/mlp/plots/GSHAP_MLP.png)
     
 === "DIMLP Fidex"
 
