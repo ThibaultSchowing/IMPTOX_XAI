@@ -12,7 +12,7 @@ Not sure how machine learning could help with your research? Here are some thoug
 - **Pathogen Risks:** Can we uncover hidden relationships between microplastic surface properties and their role in fostering pathogen growth?  
 - **Health Predictions:** Is it possible to predict health outcomes, such as allergic responses, based on exposure to microplastics combined with patient characteristics?  
 
-Machine learning allows you to go beyond observations, transforming data into predictions and new hypotheses. With XAI methods, these predictions become understandable and scientifically valuable, allowing to eliminate unused variables and focus on important ones, opening doors to research paths.  
+Machine learning allows you to go beyond observations, transforming data into predictions and new hypotheses. With XAI methods, these predictions become understandable and scientifically valuable, allowing to eliminate unused variables and focus on important ones, opening doors to optimized research paths.  
 
 
 These pages aim to guide IMPTOX members in creating and interpreting models for tabular numerical data. The workflow assumes fully numeric datasets, including ordinal categories or one-hot encodings, and focuses on predicting a target variable (classification or regression). To illustrate these methods, we will apply XAI techniques to two well-known example datasets, the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) and the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
@@ -25,8 +25,8 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
     ```py
         randForestsTrn(
         """
-        --train_data_file /mnt/c/Users/TSchowing/Desktop/repositories/IMPTOX_XAI/datasets/PimaDiabetes/train.csv 
-        --test_data_file /mnt/c/Users/TSchowing/Desktop/repositories/IMPTOX_XAI/datasets/PimaDiabetes/test.csv 
+        --train_data_file .../datasets/PimaDiabetes/train.csv 
+        --test_data_file .../datasets/PimaDiabetes/test.csv 
         --nb_attributes 8 
         --nb_classes 2"""
         )
@@ -34,13 +34,10 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 === "SHAP"
 
-    ```py
-    def main():
-        print("Hello world!")
+    By slightly modifying a model imputs many times and study the outcome of the model, SHAP is a post-hoc method capable to explain how each variable influences the results for each observation data. 
 
-    if __name__ == "__main__":
-        main()
-    ```
+    Include figures ?
+    
 === "DIMLP Fidex"
 
     ```py
