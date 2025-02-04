@@ -1,10 +1,12 @@
-# IMPTOX - Data Analysis
+# IMPTOX WP1 - Data Analysis
+
+## Quick Cards for Explainable Artificial Intelligence
 
 These pages aim to guide IMPTOX members in creating and interpreting models for tabular numerical data. The shown sample workflows assume fully numeric datasets, including ordinal categories or one-hot encodings, and focuses on predicting a target variable (classification or regression). To illustrate these methods, we will apply XAI techniques to well-known example datasets such as the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) and the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
 
 !!! info "The project"
 
-    Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The IMPTOX project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, ==the project generates a wealth of complex and valuable data==.
+    Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The IMPTOX project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, **the project generates a wealth of complex and valuable data**.
 
     Data is only the beginning. How do we extract meaningful insights or create prediction models from high dimentional and complex data? This is where machine learning (ML) and Explainable Artificial Intelligence (XAI) come into play. XAI helps transform data into knowledge by offering transparent and interpretable models that reveal the why behind predictions.
 
@@ -20,8 +22,7 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 
 
-
-
+## Usecases
 
 === "Random Forest"
 
@@ -38,11 +39,16 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 === "SHAP"
 
-    By slightly modifying a model imputs many times and studying the outcome of the model, SHAP is a post-hoc method capable to explain how each variable influences the results for each observation data. 
+    SHAP illustrates how each feature contributes to the prediction by indicating whether it pushes the outcome higher or lower compared to the baseline. Positive SHAP values suggest an upward influence on the prediction, while negative values indicate a downward influence, providing a clear understanding of each feature's impact direction.
 
-    Include figures ?
+    Here we show the global impact of each feature averaged over all test samples:
 
-    ![Average influence of variables](./assets/img//GSHAP_MLP.png)
+    ![Average influence of variables](./assets/img/GSHAP_MLP.png)
+
+    It is possible to analyse the variable for each test sample or group of samples, for instance all false negatives, to analyze which feature might influence the results: 
+
+    ![Average influence of variables for False Negatives](./assets/img/GSHAP_MLP_FN.png)
+    
     
 === "DIMLP Fidex"
 

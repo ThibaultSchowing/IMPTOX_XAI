@@ -6,6 +6,8 @@ See Notebook for example
 
 Here are the main data example and result. 
 
+Here is how to install (DO PIP FREEZE AND CREATE REQUIREMENTS:TXT when everything work)
+
 TODO
 
 
