@@ -13,8 +13,8 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 ??? note "How machine learning could help with your research?"
 
     - **Environmental Insights:** Could patterns in environmental data reveal which microplastic types are present or how they are distributed across ecosystems?  
-    - **Pathogen Risks:** Can we uncover hidden relationships between microplastic surface properties and their role in fostering pathogen growth?  
-    - **Health Predictions:** Is it possible to predict health outcomes, such as allergic responses, based on exposure to microplastics combined with patient characteristics?  
+    - **Pathogen Risks:** Can we uncover hidden relationships between microplastic chemical properties and their role in fostering pathogen growth?  
+    - **Health Predictions:** Is it possible to predict health outcomes, such as allergic responses, based on exposure to microplastics combined with patient genotype ?  
 
     Machine learning allows you to go beyond observations, transforming data into predictions and new hypotheses. With XAI methods, these predictions become understandable and scientifically valuable, allowing to eliminate unused variables and focus on important ones, opening doors to optimized research paths.  
 
@@ -42,7 +42,7 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
     Include figures ?
 
-    ![Average influence of variables](../notebooks/mlp/plots/GSHAP_MLP.png)
+    ![Average influence of variables](./assets/img//GSHAP_MLP.png)
     
 === "DIMLP Fidex"
 
