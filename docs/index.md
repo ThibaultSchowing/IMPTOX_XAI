@@ -2,6 +2,11 @@
 
 These pages aim to guide IMPTOX members in creating and interpreting models for tabular numerical data. The shown sample workflows assume fully numeric datasets, including ordinal categories or one-hot encodings, and focuses on predicting a target variable (classification or regression). To illustrate these methods, we will apply XAI techniques to well-known example datasets such as the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) and the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
 
+!!! info "The different types of XAI"
+
+    TODO - Arthur
+
+
 !!! info "The project"
 
     Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The IMPTOX project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, **the project generates a wealth of complex and valuable data**.
@@ -10,7 +15,7 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 
 ??? note "Why machine learning?"
-    While traditional statistical analysis excels at accurately describing data and identifying straightforward patterns, machine learning algorithms offer the ability to explore more complex and high-dimensional datasets. These advanced methods can capture intricate relationships and non-linear interactions that classic techniques might overlook. Moreover, machine learning models have the potential to deliver more accurate predictions by learning from complex data interactions, although this improvement is not guaranteed and often depends on the quality and structure of the data. 
+    While traditional statistical analysis excels at accurately describing data and identifying patterns, machine learning algorithms offer the ability to explore more complex and high-dimensional datasets. These advanced methods can capture intricate relationships and non-linear interactions that classic techniques might overlook. {==Highlighting==} Moreover, machine learning models have the potential to deliver more accurate predictions by learning from complex data interactions. 
 
 ??? note "How machine learning could help with your research?"
 
@@ -26,7 +31,7 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
     Simple but powerful, Random Forest creates an ensemble of decision trees which each contain already interpretable but numerous rules. Using [a modified version with the Fidex algorithm](https://hes-xplain.github.io/documentation/dimlpfidex/training-methods/randforeststrn/) allows to extract clear decision rules making the model more transparent and human readable. 
 
-    
+
 
     ```py
         randForestsTrn(
