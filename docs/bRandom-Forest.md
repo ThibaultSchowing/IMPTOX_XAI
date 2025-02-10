@@ -6,10 +6,24 @@ See Notebook for example
 
 Here are the main data example and result. 
 
-Here is how to install (DO PIP FREEZE AND CREATE REQUIREMENTS:TXT when everything work)
 
 TODO
 
+=== "Random Forest"
+
+    Simple but powerful, Random Forest creates an ensemble of decision trees which each contain already interpretable but numerous rules. Using [a modified version with the Fidex algorithm](https://hes-xplain.github.io/documentation/dimlpfidex/training-methods/randforeststrn/) allows to extract clear decision rules making the model more transparent and human readable. 
+
+
+
+    ```py
+        randForestsTrn(
+        """
+        --train_data_file .../datasets/PimaDiabetes/train.csv 
+        --test_data_file .../datasets/PimaDiabetes/test.csv 
+        --nb_attributes 8 
+        --nb_classes 2"""
+        )
+    ```
 
 
 
