@@ -24,6 +24,7 @@ The model obtains a **69% test accuracy** and the rules, local (per sample) and 
     Train Accuracy : 1
     Train Confidence : 0.904
     ```
+    The local rules are the rules attributed to each test sample individually.
 
  === "Global rules"
     ```
@@ -42,6 +43,7 @@ The model obtains a **69% test accuracy** and the rules, local (per sample) and 
     Train Accuracy : 1
     Train Confidence : 0.982278
     ```
+    The global rules represent the whole test samples and are ordered by coverage i.e. the number of sample they are applied to. 
 
 
 You can find the notebook in the GitHub repository by clicking the link in the top-right corner. 
