@@ -12,9 +12,15 @@ To try these examples, clone [this GitHub repository](https://github.com/Thibaul
 ### Create virtual environments  
 
 Some methods require specific packages and thus, we will use a different virtual environment for each example. Here we create the following: 
+
 1. .venvrf for Random Forest
+
 2. .venvshap to use Gradient SHAP over a simple Neural Network
-3. .venvfuzzycoco for FUGE. The package is not yet publicly available and needs to be compiled locally. 
+
+3. .venvrf can be used again for DIMLP Fidex
+
+4. .venvfuzzycoco for FUGE. The package is not yet publicly available and needs to be compiled locally. 
+
 
 === "From scratch"
 
@@ -89,26 +95,4 @@ The notebooks should be available on Colab soon.
 
 
 
-## Usecase overviews (MOVE TO SPECIFIC PAGES)
-
-
-
-=== "SHAP"
-
-    ![Global Variable Influence](./assets/img/GSHAP_MLP_FN.png)
-
-    
-=== "DIMLP Fidex"
-
-    ![Global Rules](./assets/img/dimlp_fidex_glo.png)
-    
-=== "Fuzzy CoCo"
-
-    ```py
-    def main():
-        print("Hello world!")
-
-    if __name__ == "__main__":
-        main()
-    ```
 
