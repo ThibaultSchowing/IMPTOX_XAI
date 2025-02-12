@@ -7,11 +7,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
     admonition:
-      note: material/info
-      warning: material/warning
-      error: material/error
-      tip: material/lightbulb
-      question: material/help
       example: fontawesome/solid/flask
   favicon: assets/favicon/imptox-rgb_white.ico
   features:
