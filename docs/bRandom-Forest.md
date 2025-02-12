@@ -26,7 +26,8 @@ The model obtains a **69% test accuracy** and the rules, local (per sample) and 
     ```
     The local rules are the rules attributed to each test sample individually.
 
- === "Global rules"
+
+=== "Global rules"
     ```
     Number of rules : 152, mean sample covering number per rule : 11.572368, mean number of antecedents per rule : 3.085526
     No decision threshold is used.
