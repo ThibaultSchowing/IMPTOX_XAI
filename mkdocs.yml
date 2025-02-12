@@ -6,6 +6,13 @@ theme:
   logo: assets/img/imptox-rgb.jpg
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      note: material/info
+      warning: material/warning
+      error: material/error
+      tip: material/lightbulb
+      question: material/help
+      example: fontawesome/solid/flask
   favicon: assets/favicon/imptox-rgb_white.ico
   features:
     - navigation.footer
@@ -14,21 +21,22 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   palette:
+    primary: custom
     # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+    #- scheme: slate
+    #  toggle:
+    #    icon: material/weather-sunny
+    #    name: Dark mode
+    #  primary: green
+    #  accent: deep purple
 
     # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+    #- scheme: default
+    #  toggle:
+    #    icon: material/weather-night
+    #    name: Light mode
+    #  primary: blue
+    #  accent: deep orange
 
 markdown_extensions:
   - attr_list
@@ -53,6 +61,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+  - tables
 
 extra:
   social:

@@ -43,7 +43,7 @@ To try these examples, clone [this GitHub repository](https://github.com/Thibaul
 
 source .venv/bin/activate
 
-# 4 - Start the Jupyter server on WSL. Specify a different port for each environment
+# 4 - Start the Jupyter server on WSL. Specify a different port for each environment if you run them in parallel
 
 jupyter notebook --no-browser --port 9898
 

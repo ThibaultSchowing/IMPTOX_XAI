@@ -5,10 +5,11 @@ These pages aim to guide IMPTOX members in creating and interpreting models for 
 
 
 ## The project
+=== example "IMPTOX Project"
 
-Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The **IMPTOX** project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, **the project generates a wealth of complex and valuable data**.
+    Microplastics and nanoplastics (MNP) are a growing concern for human health and the environment. The **IMPTOX** project brings together scientists from diverse fields—chemistry, biology, and medicine to investigate this pressing issue. Whether you're measuring MNP in environmental or animal samples, studying their impact on biofilms, tracking them as pathogen carriers, or exploring medical effects such as allergies, **the project generates a wealth of complex and valuable data**.
 
-Data is only the beginning. How do we extract meaningful insights or create prediction models from high dimentional and complex data? This is where machine learning (ML) and Explainable Artificial Intelligence (XAI) come into play. XAI helps transform data into knowledge by offering transparent and interpretable models that reveal the why behind predictions.
+    Data is only the beginning. How do we extract meaningful insights or create prediction models from high dimentional and complex data? This is where machine learning (ML) and Explainable Artificial Intelligence (XAI) come into play. XAI helps transform data into knowledge by offering transparent and interpretable models that reveal the why behind predictions.
 
 
 ??? note "Why machine learning?"
