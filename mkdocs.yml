@@ -33,11 +33,11 @@ theme:
       accent: deep orange
       
     # Imptox mode
-    - scheme: imptox
-      toggle:
-        icon: material/palette
-        name: Switch to IMPTOX mode
-      primary: custom
+    #- scheme: imptox
+    #  toggle:
+    #    icon: material/palette
+    #    name: Switch to IMPTOX mode
+    #  primary: custom
 
 markdown_extensions:
   - attr_list

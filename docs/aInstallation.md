@@ -100,13 +100,8 @@ The notebooks should be available on Colab soon.
     
 === "DIMLP Fidex"
 
-    ```py
-    def main():
-        print("Hello world!")
-
-    if __name__ == "__main__":
-        main()
-    ```
+    ![Global Rules](./assets/img/dimlp_fidex_glo.png)
+    
 === "Fuzzy CoCo"
 
     ```py
