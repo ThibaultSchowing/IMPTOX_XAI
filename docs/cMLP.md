@@ -11,7 +11,7 @@ Our example demonstrate the explainability provided by Gradient SHAP, allowing u
 
 ## Model architecture
 
-Simple MLP, description. N input, one output. 
+Here we create a simple MLP with N_features input, one hidden layer of 64 neurons, and a single neuron output for the True/False result. 
 
 ```python
 
@@ -42,11 +42,11 @@ class BinaryClassification(nn.Module):
 
 ## Model training, results and explanations
 
-The MLP provided performs as shown in the confusion matrix bellow. We can explore the different metrics and juge it satisfying or not depending on our goals however, as good as these results may be, we do not have any explanation on why these decisions were made. 
+The prediction results are shown in the confusion matrix bellow. We can explore the different metrics and juge it satisfying or not depending on our goals however, as good as these results may be, we do not have any explanation on why these decisions were made, as neural networks are black box models. 
 
 ![Confusion Matrix](./assets/img/confusion_matrix.png)
 
-We applied Gradient SHAP to the testing data by generating feature attributions for each individual sample. For every sample, the input features are perturbed using baseline references, and the corresponding changes in the model's output are analyzed. This process captures the contribution of each feature to the prediction.
+We applied **Gradient SHAP** to the testing data by generating feature attributions for each individual sample. For every sample, the input features are perturbed using baseline references, and the corresponding changes in the model's output are analyzed. This process captures the contribution of each feature to the prediction.
 
 To derive meaningful insights at the group level, we aggregated the feature attributions across all samples grouped by True Positives, True Negatives, False Positives and False Negatives. This allowed us to summarize the overall influence of each feature on the model's predictions. The resulting visualizations, as shown in the figures below, highlight the averaged feature contributions along with confidence intervals, providing a clear and interpretable representation of the model's decision-making patterns.
 
@@ -65,3 +65,7 @@ Here we can have an insight on which feature drives the result toward a positive
 
 
 ![Global Variable Influence](./assets/img/GSHAP_MLP_FN.png)
+
+
+
+You can find the notebook in the GitHub repository by clicking the link in the top-right corner. 

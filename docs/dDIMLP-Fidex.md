@@ -8,6 +8,8 @@ The [DIMLP-Fidex](https://hes-xplain.github.io/documentation/dimlpfidex/overview
 
 ![Confusion Matrix](./assets/img/DIMLP_Fidex_CM.png)
 
+After the results are computed, the FIDEX algorithm computes local and global **interpretable** rules and displays them with the OmniXAI dashboard as shown bellow. 
+
 === "Local"
     ![Local Rules](./assets/img/dimlp_fidex_localexp.png)
     
@@ -15,4 +17,5 @@ The [DIMLP-Fidex](https://hes-xplain.github.io/documentation/dimlpfidex/overview
 === "Global"
     ![Global Rules](./assets/img/dimlp_fidex_glo.png)
 
-asdf
+
+You can find the notebook in the GitHub repository by clicking the link in the top-right corner. 

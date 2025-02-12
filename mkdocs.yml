@@ -7,7 +7,20 @@ theme:
   icon:
     repo: fontawesome/brands/github
     admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+
   favicon: assets/favicon/imptox-rgb_white.ico
   features:
     - navigation.footer
@@ -29,8 +42,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: cyan
+      accent: purple
       
     # Imptox mode
     #- scheme: imptox
