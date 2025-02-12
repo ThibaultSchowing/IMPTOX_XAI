@@ -5,7 +5,6 @@ Simple but powerful, Random Forest creates an ensemble of decision trees which e
 The model obtains a **69% test accuracy** and the rules, local (per sample) and global(over all) leading to this classification result are the following. 
 
 === "Local rules"
-
     ```
     Rule for sample 0 :
 
@@ -27,7 +26,6 @@ The model obtains a **69% test accuracy** and the rules, local (per sample) and 
     ```
 
  === "Global rules"
-
     ```
     Number of rules : 152, mean sample covering number per rule : 11.572368, mean number of antecedents per rule : 3.085526
     No decision threshold is used.

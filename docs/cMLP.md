@@ -68,7 +68,7 @@ To derive meaningful insights at the group level, we aggregated the feature attr
 === "False Negatives"
     ![False Negatives](./assets/img/GSHAP_MLP_FN.png)
 
-## Conclusion
+## Global explanations
 
 Here we can have an insight on which feature drives the result toward a positive or negative prediction within the different result groups. This tells us for instance that the Glucose level is a powerful feature for the True Positive and True Negatives groups but it also drives falso positive results toward a positive prediction. We could conclude that glucose alone is a powerful predictor but is unstable. We can average the SHAP values and look at the global variable influence to get a broader view on the variables influences.
 
