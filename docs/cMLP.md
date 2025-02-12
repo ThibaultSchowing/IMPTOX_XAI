@@ -8,9 +8,6 @@ In this example, we use a simple Multi-Layer Perceptron (MLP) model to demonstra
 Our example demonstrate the explainability provided by Gradient SHAP, allowing us to identify the features that most contribute to model predictions in various scenarios, such as true positives, false positives, false negatives, and true negatives. The visualizations offer valuable insights into the decision-making process of the MLP and emphasize the importance of transparent AI models in complex problem domains. 
 
 
-## Data overview
-
-TODO ailleurs ?
 
 ## Model architecture
 
@@ -64,4 +61,7 @@ To derive meaningful insights at the group level, we aggregated the feature attr
 
 ## Conclusion
 
+Here we can have an insight on which feature drives the result toward a positive or negative prediction within the different result groups. This tells us for instance that the Glucose level is a powerful feature for the True Positive and True Negatives groups but it also drives falso positive results toward a positive prediction. We could conclude that glucose alone is a powerful predictor but is unstable. We can average the SHAP values and look at the global variable influence to get a broader view on the variables influences.
 
+
+![Global Variable Influence](./assets/img/GSHAP_MLP_FN.png)
