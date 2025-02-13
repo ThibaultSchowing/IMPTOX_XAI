@@ -63,7 +63,7 @@ Here is an extract of the type of result you can get with the methods explored h
 
     Rules generated are human readable and matched with linguistic variables. This gives results like: 
 
-    !!! hint
+    !!! hint ""
         - **IF** temperature is "high" **THEN** risk of infection is "high"  
         - **IF** heart rate is "moderate" **AND** temperature is "mild" **THEN** risk of infection is "medium"  
 
