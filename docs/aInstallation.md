@@ -1,5 +1,18 @@
 # Getting Started
 
+If you do not plan to run these notebooks locally, you can view and execute them on Google Colab: 
+
+!!! tip "Google Colab"
+
+    The notebooks should be available on Colab soon.  
+
+    1. [Random Forest and Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/1_RF.ipynb)
+    2. [DIMPL-Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/2_DIMLP_Fidex.ipynb)
+    3. [SHAP](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/4_SHAP.ipynb)
+    4. [FuzzyCoCo](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/3_FuzzyCoCo.ipynb)
+
+---
+
 ## Environments setup
 
 For Windows user, we advise to use the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) which allows, among many things, to run Python and compile packages in a Linux environment while accessing your notebooks from Windows. 
@@ -82,16 +95,7 @@ python -m pip install .
 ---
 
 
-## Google Colab
 
-The notebooks should be available on Colab soon.  
-
-1. [Random Forest and Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/1_RF.ipynb)
-2. [DIMPL-Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/2_DIMLP_Fidex.ipynb)
-3. [FuzzyCoCo](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/3_FuzzyCoCo.ipynb)
-4. [SHAP](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/4_SHAP.ipynb)
-
----
 
 
 
