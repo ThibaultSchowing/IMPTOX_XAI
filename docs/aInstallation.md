@@ -13,13 +13,13 @@ To try these examples, clone [this GitHub repository](https://github.com/Thibaul
 
 Some methods require specific packages and thus, we will use a different virtual environment for each example. Here we create the following: 
 
-1. .venvrf for Random Forest
+1. `.venvrf` for Random Forest
 
-2. .venvshap to use Gradient SHAP over a simple Neural Network
+2. `.venvshap` to use Gradient SHAP over a simple Neural Network
 
-3. .venvrf can be used again for DIMLP Fidex
+3. `.venvrf` can be used again for DIMLP Fidex
 
-4. .venvfuzzycoco for FUGE. The package is not yet publicly available and needs to be compiled locally. 
+4. `.venvfuzzycoco` for FUGE. The package is **not yet publicly available** and needs to be compiled locally. 
 
 
 === "From scratch"
@@ -86,7 +86,7 @@ python -m pip install .
 
 The notebooks should be available on Colab soon.  
 
-1. Random Forest and Fidex (TODO)
+1. Random Forest and Fidex (TODO) [Test Link](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/1_RF.ipynb)
 2. DIMPL Fidex (TODO)
 3. FuzzyCoCo (TODO)
 4. SHAP  (TODO)
