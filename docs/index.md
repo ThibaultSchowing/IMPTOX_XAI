@@ -35,19 +35,13 @@ These pages aim to guide **IMPTOX** members in creating and interpreting models 
 
 Here is an extract of the type of result you can get with the methods explored here.
 
-=== "SHAP"
-
-    ![Global Variable Influence](./assets/img/GSHAP_MLP_FN.png)
-
-    
-=== "DIMLP Fidex"
-
-    ![Global Rules](./assets/img/dimlp_fidex_glo.png)
-
 === "Random Forest"
     Global rules overview
     ```
-    Number of rules : 152, mean sample covering number per rule : 11.572368, mean number of antecedents per rule : 3.085526
+    Number of rules : 
+        -152, 
+        -mean sample covering number per rule : 11.572368, 
+        -mean number of antecedents per rule : 3.085526
     No decision threshold is used.
 
     Rule 1: Glucose<104.5 BMI<28.8 -> class 0
@@ -57,14 +51,20 @@ Here is an extract of the type of result you can get with the methods explored h
     Train Confidence : 0.980741
     ```
 
+=== "SHAP"
+
+    ![Global Variable Influence](./assets/img/GSHAP_MLP_FN.png)
+
+=== "DIMLP Fidex"
+
+    ![Global Rules](./assets/img/dimlp_fidex_glo.png)
+
 === "Fuzzy CoCo"
 
-    ```
     Rules generated are human readable and matched with linguistic variables. This gives results like: 
 
-    - **IF** temperature is "high" **THEN** risk of infection is "high"  
-    - **IF** heart rate is "moderate" **AND** temperature is "mild" **THEN** risk of infection is "medium"  
-
-    ```
+    !!! hint
+        - **IF** temperature is "high" **THEN** risk of infection is "high"  
+        - **IF** heart rate is "moderate" **AND** temperature is "mild" **THEN** risk of infection is "medium"  
 
 ---
