@@ -86,10 +86,10 @@ python -m pip install .
 
 The notebooks should be available on Colab soon.  
 
-1. Random Forest and Fidex (TODO) [Test Link](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/1_RF.ipynb)
-2. DIMPL Fidex (TODO)
-3. FuzzyCoCo (TODO)
-4. SHAP  (TODO)
+1. [Random Forest and Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/1_RF.ipynb)
+2. [DIMPL-Fidex](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/2_DIMLP_Fidex.ipynb)
+3. [FuzzyCoCo](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/3_FuzzyCoCo.ipynb)
+4. [SHAP](https://colab.research.google.com/github/ThibaultSchowing/IMPTOX_XAI/blob/main/notebooks/4_SHAP.ipynb)
 
 ---
 
