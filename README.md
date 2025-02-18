@@ -4,7 +4,7 @@
 > [!NOTE]
 > Use our Jupyter Notebooks to create simple Explainable Artificial Intelligence models for your data!
 
-> [!INFO]
+> [!TIP]
 > Check the documentation [here](https://thibaultschowing.github.io/IMPTOX_XAI/) ! 
 
 ## Context
