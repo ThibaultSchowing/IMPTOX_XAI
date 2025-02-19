@@ -1,0 +1,11 @@
+/* Custom IMPTOX color scheme */
+[data-md-color-scheme="imptox"] {
+  --md-primary-fg-color:        #cd00d4;
+  --md-primary-fg-color--light: #d35ff5;
+  --md-primary-fg-color--dark:  #95009a;
+  --md-accent-fg-color:         #00a0a9;
+  --md-primary-bg-color:        #f4f4f4;
+  --md-default-bg-color:        #ffffff;
+  --md-code-bg-color:           #635858;
+  --md-typeset-a-color:         #cd00d4;
+}
