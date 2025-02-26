@@ -61,10 +61,17 @@ Here is an extract of the type of result you can get with the methods explored h
 
 === "Fuzzy CoCo"
 
-    Rules generated are human readable and matched with linguistic variables. This gives results like: 
+    Rules generated are human readable and matched with linguistic variables. This gives results as bellow with Variable.1, Variable.2 and Variable.3 corresponding to the number of sets selected (e.g. it could linguistically correspond to Small, Medium and Large). 
 
     !!! hint ""
-        - **IF** temperature is "high" **THEN** risk of infection is "high"  
-        - **IF** heart rate is "moderate" **AND** temperature is "mild" **THEN** risk of infection is "medium"  
+        - **IF** (Glucose is Glucose.3), **THEN** (OUT is OUT.2)
+        - **IF** (Age is Age.1), **THEN** (OUT is OUT.1)] 
+        - **ELSE** (OUT is OUT.2)
+
+
+    Currently, function are being implemented to visualize the training progress as well as the resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
+    
+     ![](./assets/img/output_test_8.png)
+
 
 ---

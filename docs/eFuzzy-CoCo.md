@@ -1,6 +1,7 @@
 # Fuzzy Coco
 
-Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creating variable and rules, and CoCo that stands for Coevolutionary Computation. You can find details in [this paper](https://infoscience.epfl.ch/entities/publication/d86c7dde-72fa-4fb7-9842-2c3ca0e1a1b3) but here is a simplified view on Fuzzy CoCo. 
+Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creating variable and rules, and CoCo that stands for Coevolutionary Computation. You can find details in [this paper](https://infoscience.epfl.ch/entities/publication/d86c7dde-72fa-4fb7-9842-2c3ca0e1a1b3) or bellow is an as short as possible summary of how Fuzzy CoCo works.
+
 
 ??? note "Fuzzy Logic and Co-evolutionary computation"
 
@@ -23,3 +24,8 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
     ### Fuzzy CoCo
 
     To find the right values, e.g. where are the cutoffs for a variable to be small, medium or large, and to find the rules, FUGE uses Co-evolutionary Computation. Co-evolutionary computation is an extension of evolutionary algorithms (EAs) where multiple interacting populations evolve simultaneously. Instead of a single population optimizing in isolation, co-evolution involves different groups influencing each other's evolution, leading to more dynamic and adaptive solutions.
+
+=== abstract "Work In Progress"
+
+    Over the past decade, FUGE, the software implementing Fuzzy CoCo, has undergone sporadic updates and been used by various users, resulting in multiple unmatched and gradually outdated versions. Recently, its GUI was removed, and the codebase was cleaned to facilitate integration into a Python package. The integration is still in progress, and the current version allows only model creation and prediction. However, rule extraction, training process visualization, and additional features will be available soon. Stay tuned!
+
