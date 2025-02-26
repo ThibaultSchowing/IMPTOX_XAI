@@ -41,9 +41,15 @@ Currently, function are being implemented to visualize the training progress as 
 
 With the variable sets being: 
 
-![Glucose set](./assets/img/fuzzy_set_glucose.png)
-![Age set](./assets/img/fuzzy_set_age.png)
-![Output set](./assets/img/fuzzy_set_output.png)
+Glucose             |  Age   |     Output  
+:-------------------------:|:-------------------------: | :-------------------------:
+![Glucose set](./assets/img/fuzzy_set_glucose.png)  |  ![Age set](./assets/img/fuzzy_set_age.png) | ![Output set](./assets/img/fuzzy_set_output.png)
+
+
+
+
+
+
 
 Once a name is given to the variable sets, the rules can be read like this:
 
