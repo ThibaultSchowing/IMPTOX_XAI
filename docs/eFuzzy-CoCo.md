@@ -32,6 +32,8 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
 
     Over the past decade, FUGE, the software implementing Fuzzy CoCo, has undergone sporadic updates and been used by various users, resulting in multiple unmatched and gradually outdated versions. Recently, its GUI was removed, and the codebase was cleaned to facilitate integration into a Python package. The integration is still in progress, and the current version allows only model creation, prediction and a few beta visualization functions. Rule extraction, training process visualization, and additional features will be improved and available soon. Stay tuned!
 
+## FUGE
+
 Currently, function are being implemented to visualize the training progress as well as the resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
 
 ![FUGE prediction visualization](./assets/img/output_test_8.png)  
