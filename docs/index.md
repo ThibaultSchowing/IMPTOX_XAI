@@ -61,16 +61,15 @@ Here is an extract of the type of result you can get with the methods explored h
 
 === "Fuzzy CoCo"
 
-    . 
+    The created model:
 
     !!! hint ""
         - **IF** (Glucose is Glucose.3), **THEN** (OUT is OUT.2)
         - **IF** (Age is Age.1), **THEN** (OUT is OUT.1)] 
         - **ELSE** (OUT is OUT.2)
 
-
-    Currently, function are being implemented to visualize the training progress as well as the resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
-
+     Here a test sample is fuzzified and we can see the different rules activations: 
+     
      ![FUGE prediction visualization](./assets/img/output_test_8.png)
 
 
