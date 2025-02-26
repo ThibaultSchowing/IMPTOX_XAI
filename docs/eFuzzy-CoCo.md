@@ -45,8 +45,9 @@ Glucose             |  Age
 --- | --- 
 ![Glucose set](./assets/img/fuzzy_set_glucose.png)  |  ![Age set](./assets/img/fuzzy_set_age.png) 
 
+Output:
 
-
+![Output set](./assets/img/fuzzy_set_output.png)
 
 
 
