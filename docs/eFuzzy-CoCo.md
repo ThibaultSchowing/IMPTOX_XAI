@@ -14,10 +14,19 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
     A membership function defines how a fuzzy variable is mapped to a degree of belonging within a category. It assigns a value between 0 and 1 to indicate how strongly a given input belongs to a specific fuzzy set. For example, a temperature of 37.5°C might have a membership of 0.3 in the "high fever" category and 0.7 in the "mild fever" category. These functions can take different shapes, such as triangular, trapezoidal, or Gaussian, depending on the level of smoothness desired.
 
     ### **Fuzzy Rules**  
-    Fuzzy rules describe the relationships between fuzzy variables using "if-then" statements. These rules help make decisions based on imprecise input. For example:  
+    Fuzzy rules describe the relationships between fuzzy variables using "if-then" statements. These rules help make decisions based on imprecise input. With our model from the PIMA dataset we obtain the following:  
 
-    - **IF** temperature is "high" **THEN** risk of infection is "high"  
-    - **IF** heart rate is "moderate" **AND** temperature is "mild" **THEN** risk of infection is "medium"  
+    !!! hint ""
+        - **IF** (Glucose is Glucose.3), **THEN** (OUT is OUT.2)
+        - **IF** (Age is Age.1), **THEN** (OUT is OUT.1)] 
+        - **ELSE** (OUT is OUT.2)
+
+    Rules generated are human readable and matched with linguistic variables. This gives results as bellow with Variable.1, Variable.2 and Variable.3 corresponding to the number of sets selected (e.g. it could linguistically correspond to Small, Medium and Large)
+
+
+    Currently, function are being implemented to visualize the training progress as well as the resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
+
+     ![FUGE prediction visualization](./assets/img/output_test_8.png)  
 
     These rules allow for flexible, human-like reasoning, making fuzzy logic useful in decision support systems, medical diagnostics, and control systems.  
 
@@ -27,5 +36,5 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
 
 !!! abstract "Work In Progress"
 
-    Over the past decade, FUGE, the software implementing Fuzzy CoCo, has undergone sporadic updates and been used by various users, resulting in multiple unmatched and gradually outdated versions. Recently, its GUI was removed, and the codebase was cleaned to facilitate integration into a Python package. The integration is still in progress, and the current version allows only model creation and prediction. However, rule extraction, training process visualization, and additional features will be available soon. Stay tuned!
+    Over the past decade, FUGE, the software implementing Fuzzy CoCo, has undergone sporadic updates and been used by various users, resulting in multiple unmatched and gradually outdated versions. Recently, its GUI was removed, and the codebase was cleaned to facilitate integration into a Python package. The integration is still in progress, and the current version allows only model creation, prediction and a few beta visualization functions. Rule extraction, training process visualization, and additional features will be improved and available soon. Stay tuned!
 
