@@ -8,7 +8,8 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
     Fuzzy logic is an extension of classical logic that deals with reasoning in uncertain or imprecise environments. Unlike traditional binary logic, where variables must be strictly true (1) or false (0), fuzzy logic allows for degrees of truth between 0 and 1.  
 
     ### **Fuzzy Variables**  
-    Fuzzy variables represent real-world concepts that lack precise boundaries. For example, in a medical setting, "fever" is not just "present" or "absent"—a temperature of 37.5°C is slightly feverish, while 39°C is definitely high. Fuzzy variables can take on a range of values with different degrees of membership in categories like "low," "medium," and "high."
+    Fuzzy variables represent real-world concepts that lack precise boundaries. For example, in a medical setting, "Glucose level" is not just "present" or "absent" a level of 60 mg/dl is normal, while 150 mg/dl is definitely high. Fuzzy variables can take on a range of values with different degrees of membership in categories like "low," "medium," and "high."
+
 
     ### **Membership Functions**  
     A membership function defines how a fuzzy variable is mapped to a degree of belonging within a category. It assigns a value between 0 and 1 to indicate how strongly a given input belongs to a specific fuzzy set. For example, a temperature of 37.5°C might have a membership of 0.3 in the "high fever" category and 0.7 in the "mild fever" category. These functions can take different shapes, such as triangular, trapezoidal, or Gaussian, depending on the level of smoothness desired but our implementation only uses triangular functions for simplicity and efficience. 
@@ -34,9 +35,15 @@ Fuzzy CoCo is an algorithm that uses Fuzzy logic, a human readable way of creati
 
 ## FUGE
 
-Currently, function are being implemented to visualize the training progress as well as the resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
+Currently, function are being implemented to visualize the training progress as well as the variable sets and resulting fuzzy model. For a test sample, the fuzzyfication looks like this:
 
 ![FUGE prediction visualization](./assets/img/output_test_8.png)  
+
+With the variable sets being: 
+
+![Glucose set](./assets/img/fuzzy_set_glucose.png)
+![Age set](./assets/img/fuzzy_set_age.png)
+![Output set](./assets/img/fuzzy_set_output.png)
 
 Once a name is given to the variable sets, the rules can be read like this:
 
