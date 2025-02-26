@@ -42,7 +42,7 @@ Currently, function are being implemented to visualize the training progress as 
 With the variable sets being: 
 
 Glucose             |  Age   |     Output  
-:-------------------------:|:-------------------------: | :-------------------------:
+--- | --- | ---
 ![Glucose set](./assets/img/fuzzy_set_glucose.png)  |  ![Age set](./assets/img/fuzzy_set_age.png) | ![Output set](./assets/img/fuzzy_set_output.png)
 
 
