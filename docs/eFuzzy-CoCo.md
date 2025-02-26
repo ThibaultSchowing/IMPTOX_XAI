@@ -36,9 +36,20 @@ Currently, function are being implemented to visualize the training progress as 
 
 ![FUGE prediction visualization](./assets/img/output_test_8.png)  
 
+The model being:
 
+!!! hint "Raw output"
+    IF (Glucose is Glucose.3), THEN (OUT is OUT.2)
+    IF (Age is Age.1), THEN (OUT is OUT.1)] 
+    ELSE (OUT is OUT.2)
 
-!!! hint ""
-        - **IF** (Glucose is Glucose.3), **THEN** (OUT is OUT.2)
-        - **IF** (Age is Age.1), **THEN** (OUT is OUT.1)] 
-        - **ELSE** (OUT is OUT.2)
+!!! hint "Translated version"
+    IF (Glucose is HIGH), THEN (OUT is MEDIUM)
+    IF (Age is LOW), THEN (OUT is LOW)] 
+    ELSE (OUT is MEDIUM)
+
+Which in a sentense would be: 
+
+    >If the glucose level is high, then the probability of diabetes is medium. If the patient is young, the the probability of diabetes is low. Otherwise, the diabetes probability is medium. 
+
+Depending on HOW low, medium or high the variables are activated, an average is calculated in the end to give how much probable diabetes is. 
